@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18B028AC2B7EB30E00987FF0 /* ecoquestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B028AB2B7EB30E00987FF0 /* ecoquestApp.swift */; };
+		18B028AE2B7EB30E00987FF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B028AD2B7EB30E00987FF0 /* ContentView.swift */; };
+		18B028B02B7EB31300987FF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B028AF2B7EB31300987FF0 /* Assets.xcassets */; };
+		18B028B32B7EB31300987FF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B028B22B7EB31300987FF0 /* Preview Assets.xcassets */; };
+		18B028BD2B7EB31400987FF0 /* ecoquestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B028BC2B7EB31400987FF0 /* ecoquestTests.swift */; };
+		18B028C72B7EB31400987FF0 /* ecoquestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B028C62B7EB31400987FF0 /* ecoquestUITests.swift */; };
+		18B028C92B7EB31400987FF0 /* ecoquestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B028C82B7EB31400987FF0 /* ecoquestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18B028B92B7EB31400987FF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B028A02B7EB30E00987FF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B028A72B7EB30E00987FF0;
+			remoteInfo = ecoquest;
+		};
+		18B028C32B7EB31400987FF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B028A02B7EB30E00987FF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B028A72B7EB30E00987FF0;
+			remoteInfo = ecoquest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18B028A82B7EB30E00987FF0 /* ecoquest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecoquest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B028AB2B7EB30E00987FF0 /* ecoquestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecoquestApp.swift; sourceTree = "<group>"; };
+		18B028AD2B7EB30E00987FF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18B028AF2B7EB31300987FF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B028B22B7EB31300987FF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18B028B82B7EB31400987FF0 /* ecoquestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ecoquestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B028BC2B7EB31400987FF0 /* ecoquestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecoquestTests.swift; sourceTree = "<group>"; };
+		18B028C22B7EB31400987FF0 /* ecoquestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ecoquestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B028C62B7EB31400987FF0 /* ecoquestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecoquestUITests.swift; sourceTree = "<group>"; };
+		18B028C82B7EB31400987FF0 /* ecoquestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecoquestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B028A52B7EB30E00987FF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B028B52B7EB31400987FF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B028BF2B7EB31400987FF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B0289F2B7EB30E00987FF0 = {
+			isa = PBXGroup;
+			children = (
+				18B028AA2B7EB30E00987FF0 /* ecoquest */,
+				18B028BB2B7EB31400987FF0 /* ecoquestTests */,
+				18B028C52B7EB31400987FF0 /* ecoquestUITests */,
+				18B028A92B7EB30E00987FF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B028A92B7EB30E00987FF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B028A82B7EB30E00987FF0 /* ecoquest.app */,
+				18B028B82B7EB31400987FF0 /* ecoquestTests.xctest */,
+				18B028C22B7EB31400987FF0 /* ecoquestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B028AA2B7EB30E00987FF0 /* ecoquest */ = {
+			isa = PBXGroup;
+			children = (
+				18B028AB2B7EB30E00987FF0 /* ecoquestApp.swift */,
+				18B028AD2B7EB30E00987FF0 /* ContentView.swift */,
+				18B028AF2B7EB31300987FF0 /* Assets.xcassets */,
+				18B028B12B7EB31300987FF0 /* Preview Content */,
+			);
+			path = ecoquest;
+			sourceTree = "<group>";
+		};
+		18B028B12B7EB31300987FF0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18B028B22B7EB31300987FF0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18B028BB2B7EB31400987FF0 /* ecoquestTests */ = {
+			isa = PBXGroup;
+			children = (
+				18B028BC2B7EB31400987FF0 /* ecoquestTests.swift */,
+			);
+			path = ecoquestTests;
+			sourceTree = "<group>";
+		};
+		18B028C52B7EB31400987FF0 /* ecoquestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18B028C62B7EB31400987FF0 /* ecoquestUITests.swift */,
+				18B028C82B7EB31400987FF0 /* ecoquestUITestsLaunchTests.swift */,
+			);
+			path = ecoquestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B028A72B7EB30E00987FF0 /* ecoquest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B028CC2B7EB31400987FF0 /* Build configuration list for PBXNativeTarget "ecoquest" */;
+			buildPhases = (
+				18B028A42B7EB30E00987FF0 /* Sources */,
+				18B028A52B7EB30E00987FF0 /* Frameworks */,
+				18B028A62B7EB30E00987FF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ecoquest;
+			productName = ecoquest;
+			productReference = 18B028A82B7EB30E00987FF0 /* ecoquest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18B028B72B7EB31400987FF0 /* ecoquestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B028CF2B7EB31400987FF0 /* Build configuration list for PBXNativeTarget "ecoquestTests" */;
+			buildPhases = (
+				18B028B42B7EB31400987FF0 /* Sources */,
+				18B028B52B7EB31400987FF0 /* Frameworks */,
+				18B028B62B7EB31400987FF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B028BA2B7EB31400987FF0 /* PBXTargetDependency */,
+			);
+			name = ecoquestTests;
+			productName = ecoquestTests;
+			productReference = 18B028B82B7EB31400987FF0 /* ecoquestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18B028C12B7EB31400987FF0 /* ecoquestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B028D22B7EB31400987FF0 /* Build configuration list for PBXNativeTarget "ecoquestUITests" */;
+			buildPhases = (
+				18B028BE2B7EB31400987FF0 /* Sources */,
+				18B028BF2B7EB31400987FF0 /* Frameworks */,
+				18B028C02B7EB31400987FF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B028C42B7EB31400987FF0 /* PBXTargetDependency */,
+			);
+			name = ecoquestUITests;
+			productName = ecoquestUITests;
+			productReference = 18B028C22B7EB31400987FF0 /* ecoquestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B028A02B7EB30E00987FF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					18B028A72B7EB30E00987FF0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					18B028B72B7EB31400987FF0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 18B028A72B7EB30E00987FF0;
+					};
+					18B028C12B7EB31400987FF0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 18B028A72B7EB30E00987FF0;
+					};
+				};
+			};
+			buildConfigurationList = 18B028A32B7EB30E00987FF0 /* Build configuration list for PBXProject "ecoquest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B0289F2B7EB30E00987FF0;
+			productRefGroup = 18B028A92B7EB30E00987FF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B028A72B7EB30E00987FF0 /* ecoquest */,
+				18B028B72B7EB31400987FF0 /* ecoquestTests */,
+				18B028C12B7EB31400987FF0 /* ecoquestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B028A62B7EB30E00987FF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B028B32B7EB31300987FF0 /* Preview Assets.xcassets in Resources */,
+				18B028B02B7EB31300987FF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B028B62B7EB31400987FF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B028C02B7EB31400987FF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B028A42B7EB30E00987FF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B028AE2B7EB30E00987FF0 /* ContentView.swift in Sources */,
+				18B028AC2B7EB30E00987FF0 /* ecoquestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B028B42B7EB31400987FF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B028BD2B7EB31400987FF0 /* ecoquestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B028BE2B7EB31400987FF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B028C92B7EB31400987FF0 /* ecoquestUITestsLaunchTests.swift in Sources */,
+				18B028C72B7EB31400987FF0 /* ecoquestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B028BA2B7EB31400987FF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B028A72B7EB30E00987FF0 /* ecoquest */;
+			targetProxy = 18B028B92B7EB31400987FF0 /* PBXContainerItemProxy */;
+		};
+		18B028C42B7EB31400987FF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B028A72B7EB30E00987FF0 /* ecoquest */;
+			targetProxy = 18B028C32B7EB31400987FF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18B028CA2B7EB31400987FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18B028CB2B7EB31400987FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B028CD2B7EB31400987FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ecoquest/Preview Content\"";
+				DEVELOPMENT_TEAM = JCNVK7XSG9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = opc.dauda.tech.ecoquest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18B028CE2B7EB31400987FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ecoquest/Preview Content\"";
+				DEVELOPMENT_TEAM = JCNVK7XSG9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = opc.dauda.tech.ecoquest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18B028D02B7EB31400987FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCNVK7XSG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = opc.dauda.tech.ecoquestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ecoquest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ecoquest";
+			};
+			name = Debug;
+		};
+		18B028D12B7EB31400987FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCNVK7XSG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = opc.dauda.tech.ecoquestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ecoquest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ecoquest";
+			};
+			name = Release;
+		};
+		18B028D32B7EB31400987FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCNVK7XSG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = opc.dauda.tech.ecoquestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ecoquest;
+			};
+			name = Debug;
+		};
+		18B028D42B7EB31400987FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCNVK7XSG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = opc.dauda.tech.ecoquestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ecoquest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B028A32B7EB30E00987FF0 /* Build configuration list for PBXProject "ecoquest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B028CA2B7EB31400987FF0 /* Debug */,
+				18B028CB2B7EB31400987FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B028CC2B7EB31400987FF0 /* Build configuration list for PBXNativeTarget "ecoquest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B028CD2B7EB31400987FF0 /* Debug */,
+				18B028CE2B7EB31400987FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B028CF2B7EB31400987FF0 /* Build configuration list for PBXNativeTarget "ecoquestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B028D02B7EB31400987FF0 /* Debug */,
+				18B028D12B7EB31400987FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B028D22B7EB31400987FF0 /* Build configuration list for PBXNativeTarget "ecoquestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B028D32B7EB31400987FF0 /* Debug */,
+				18B028D42B7EB31400987FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B028A02B7EB30E00987FF0 /* Project object */;
+}
